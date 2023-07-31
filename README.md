@@ -1,4 +1,4 @@
-# Data-Analysis-and-Visualization-WebApp
+# Visuverse - Data Analysis and Visualization-WebApp
 
 For data analysis and visualisation, utilise this website. 
 You can choose from a variety of graph kinds in visualisation, including bar charts, line graphs, histograms, scatter plots, and pie charts.
