@@ -22,3 +22,5 @@ engaging manner, allowing users to draw significant insights from the patterns a
 relationships within the data. Together, these features form a comprehensive and 
 efficient platform for data-driven decision-making and deeper understanding of the 
 underlying dataset.
+
+![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/b3078304-1a81-4b13-9f00-908eb6f27461)
