@@ -5,6 +5,11 @@ import seaborn as sns
 from streamlit_option_menu import option_menu
 import requests
 import plotly.express as px
+import io
+#from pycaret.regression import setup, compare_models, pull, save_model, load_model
+import os
+#import pandas_profiling
+#from streamlit_pandas_profiling import st_profile_report
 
 with st.sidebar:
     
@@ -13,6 +18,7 @@ with st.sidebar:
                           ['Home',
                            'Data Analysis',
                            'Data Visualization',
+                           
                            ],
                           icons=['house','activity','bar-chart'],
                           default_index=0)
@@ -203,6 +209,20 @@ elif selected == 'Data Analysis' :
             show_standard_deviation(sub_df)
             sorted_data = sort_data(sub_df)
             show_sorted_data(sorted_data)
+            def groupby_function(data_frame, group_by_column, aggregation_column, aggregation_function):
+                grouped_data = data_frame.groupby(group_by_column)[aggregation_column].apply(aggregation_function)
+                return grouped_data
+            
+            st.markdown("<h2 style='color: #FF5733;'><em>GroupBy Function</em></h2>", unsafe_allow_html=True)
+            group_by_column = st.selectbox("Select column to group by:", data.columns)
+            aggregation_column = st.selectbox("Select column for aggregation:", data.columns)
+            aggregation_function = st.selectbox("Select aggregation function:", ['sum', 'mean', 'max', 'min'])
+
+            if st.button("Apply GroupBy"):
+                grouped_data = groupby_function(data, group_by_column, aggregation_column, aggregation_function)
+                st.markdown("<h4 style='color: #FF5733;'><em>Grouped Data</em></h2>", unsafe_allow_html=True)
+                st.write(grouped_data)
+    
           
 
 
@@ -224,8 +244,17 @@ elif selected == 'Data Analysis' :
 
     def show_sorted_data(sorted_df):
         st.markdown("<h4 style='color:  #FF7F50;'><em>Sorted Data : </em></h4>", unsafe_allow_html=True)
-        st.write(sorted_df)
+        #with st.expander("Click to view all data"):
+        st.write(sorted_df)  # Display the entire DataFrame
 
+        # Create a downloadable Excel file
+        #output = io.BytesIO()
+            #writer = pd.ExcelWriter(output, engine='xlsxwriter')
+            #sorted_df.to_excel(writer, index=False, sheet_name='Sorted Data')
+           # writer.save()
+        #excel_data = output.getvalue()
+
+        #st.download_button("Download Excel", data=excel_data, file_name="sorted_data.xlsx")
     def show_columns_info(data):
         
         st.markdown("<h4 style='color:  #FF7F50;'><em>Column Names And their DataTypes : </em></h4>", unsafe_allow_html=True)
@@ -234,6 +263,9 @@ elif selected == 'Data Analysis' :
         'Data Types': data.dtypes
         })
         st.table(column_info_df)
+
+    
+    
 
     def show_missing_and_unique_values(data):
         st.markdown("<h4 style='color:  #FF7F50;'><em>Missing and Unique Values in Sub DataFrame : </em></h4>", unsafe_allow_html=True)
@@ -274,6 +306,7 @@ elif selected == 'Data Analysis' :
 
     if data is not None:
         analyze_data(data)
+        
         #sorted_data = sort_data(data)
         #show_sorted_data(sorted_data)
 
@@ -317,6 +350,8 @@ elif selected == 'Data Visualization':
         ax.set_ylabel(y_column)
         st.pyplot(fig)
 
+     
+
 # Main function
     def main():
         st.markdown("<h1 style='color: #FF5733;'><em>Data Visualization :</em></h1>", unsafe_allow_html=True)
@@ -345,6 +380,9 @@ elif selected == 'Data Visualization':
             if chart_type == "Bar Chart" or chart_type == "Line Chart":
                 x_column = st.selectbox("Select X Column", data.columns)
                 y_column = st.selectbox("Select Y Column", data.columns)
+            elif chart_type == "Line Chart":
+                x_column = st.selectbox("Select X Column (Numeric)", data.select_dtypes(include=['int', 'float']).columns)
+                y_column = st.selectbox("Select Y Column (Numeric)", data.select_dtypes(include=['int', 'float']).columns)
             elif chart_type == "Scatter Plot":
                 x_column = st.selectbox("Select X Column (Numeric)", data.select_dtypes(include=['int', 'float']).columns)
                 y_column = st.selectbox("Select Y Column (Numeric)", data.select_dtypes(include=['int', 'float']).columns)
@@ -368,6 +406,8 @@ elif selected == 'Data Visualization':
 
             if fig:
                 st.plotly_chart(fig)
+
+        
 
     if __name__ == "__main__":
         main()
