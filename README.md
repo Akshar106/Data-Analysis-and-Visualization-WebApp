@@ -1,5 +1,14 @@
 # Visuverse - Data Analysis and Visualization-WebApp
 
-For data analysis and visualisation, utilise this website. 
-You can choose from a variety of graph kinds in visualisation, including bar charts, line graphs, histograms, scatter plots, and pie charts.
-You can analyse your data in Data Analysis since we've given you certain mathematical norms to help you understand it, like mean, min, max, standard deviation, count, and many more.
+## Objective : 
+
+The objective of the project "Visuverse" is to create a user-friendly and interactive web 
+application for data analysis and data visualization. The main goal is to empower users to 
+gain valuable insights from their datasets by providing them with a platform that simplifies 
+the process of exploring, cleaning, and analysing data. Through visually compelling and 
+customizable visualizations, the project aims to enable users to identify patterns, 
+correlations, and trends within their data, facilitating informed decision-making and 
+enhancing their overall understanding of complex datasets. Additionally, the project seeks 
+to serve as a valuable educational resource for learning data analysis techniques and as a 
+practical tool for professionals and businesses seeking to leverage data-driven insights in 
+their decision-making processes. 
