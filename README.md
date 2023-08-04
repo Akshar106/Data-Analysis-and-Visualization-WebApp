@@ -1,14 +1,24 @@
 # Visuverse - Data Analysis and Visualization-WebApp
 
+## What is VisuVerse?
+
+VisuVerse is an innovative and user-friendly Data Analysis and Data Visualization 
+WebApp developed using Streamlit. The web application aims to make data analysis 
+accessible and engaging for users with varying levels of technical expertise. By 
+combining powerful analytical tools with intuitive visualization features, VisuVerse 
+allows users to interactively explore and interpret complex datasets.
+
 ## Objective : 
 
-The objective of the project "Visuverse" is to create a user-friendly and interactive web 
-application for data analysis and data visualization. The main goal is to empower users to 
-gain valuable insights from their datasets by providing them with a platform that simplifies 
-the process of exploring, cleaning, and analysing data. Through visually compelling and 
-customizable visualizations, the project aims to enable users to identify patterns, 
-correlations, and trends within their data, facilitating informed decision-making and 
-enhancing their overall understanding of complex datasets. Additionally, the project seeks 
-to serve as a valuable educational resource for learning data analysis techniques and as a 
-practical tool for professionals and businesses seeking to leverage data-driven insights in 
-their decision-making processes. 
+The primary 
+objective of this project is to provide users with a powerful tool to analyse and visualize 
+complex datasets efficiently, aiding in data-driven decision-making and extracting 
+valuable insights. 
+VisuVerse is equipped with two distinct features that work in harmony to empower 
+users with valuable insights. The first feature encompasses data analysis, enabling 
+users to process and examine datasets to uncover meaningful information. The second 
+feature focuses on data visualization, presenting the analysed data in a visually 
+engaging manner, allowing users to draw significant insights from the patterns and 
+relationships within the data. Together, these features form a comprehensive and 
+efficient platform for data-driven decision-making and deeper understanding of the 
+underlying dataset.
