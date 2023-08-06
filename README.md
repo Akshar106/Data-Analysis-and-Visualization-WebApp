@@ -55,3 +55,8 @@ their respective data types. Understanding the data types helps in knowing the
 nature of the variables in the dataset.
 
 ![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/f19c7ed3-f058-4824-aed0-7bdcd6f3950a)
+
+5. Missing Values: Identify and examine any missing values present in the selected 
+columns. Addressing missing data is crucial for accurate and reliable analysis.
+
+![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/61bfce34-4d76-45b6-82e5-d33aaf126fc7)
