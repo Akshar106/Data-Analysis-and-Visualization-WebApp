@@ -46,4 +46,12 @@ analyze and explore further :
 
 ![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/c2588ae6-5a80-4ed7-a558-fc5db5992195)
 
+3. Data Description: Access descriptive statistics of the selected dataset, such as 
+mean, median, minimum, maximum, and quartiles. These statistics provide a 
+summary of the dataset's characteristics and distribution.
 
+4. Column Names and Data Types: Review the names of the selected columns and 
+their respective data types. Understanding the data types helps in knowing the 
+nature of the variables in the dataset.
+
+![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/f19c7ed3-f058-4824-aed0-7bdcd6f3950a)
