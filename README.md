@@ -41,4 +41,9 @@ personal computer.
 
 ![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/3d14a711-0078-45c1-9d84-d6bf417c98b4)
 
+2. Column Selection: Select the relevant columns from the dataset that you want to 
+analyze and explore further :
+
+![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/c2588ae6-5a80-4ed7-a558-fc5db5992195)
+
 
