@@ -60,3 +60,10 @@ nature of the variables in the dataset.
 columns. Addressing missing data is crucial for accurate and reliable analysis.
 
 ![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/61bfce34-4d76-45b6-82e5-d33aaf126fc7)
+
+6. Sorting: Sorting in data analysis involves arranging data in a particular order, often 
+in ascending or descending order, to facilitate easier interpretation and identification 
+of patterns or trends within the dataset.
+
+![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/5ce3fe4e-16c0-4d2f-8fac-3ccab1f63a6f)
+
