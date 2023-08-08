@@ -67,3 +67,26 @@ of patterns or trends within the dataset.
 
 ![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/5ce3fe4e-16c0-4d2f-8fac-3ccab1f63a6f)
 
+## Data Visualization :
+
+Data visualization is the graphical representation of data and information. It involves 
+creating visual representations, such as charts, graphs, maps, and plots, to help users 
+understand patterns, trends, and relationships within complex datasets. Data visualization 
+is a powerful tool for presenting data in a visually appealing and easily digestible format, 
+making it easier for individuals to identify insights and draw conclusions from the data. 
+Through carefully designed visualizations, data analysts and communicators can 
+effectively convey information and convey complex findings in a manner that is both 
+engaging and informative. The visual appeal of data visualization captures the audience's 
+attention, facilitating a deeper understanding of the data's significance
+
+Some of the 
+chart types it can provide include: 
+
+1. Bar Chart: Used to compare categorical data and display data as vertical or horizontal 
+bars. Suitable for visualizing frequencies, comparisons, and trends.
+
+![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/edaa7738-20e7-481b-9993-759ac3321a67)
+
+
+
+
