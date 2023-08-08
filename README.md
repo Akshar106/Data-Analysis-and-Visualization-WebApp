@@ -88,5 +88,10 @@ bars. Suitable for visualizing frequencies, comparisons, and trends.
 ![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/edaa7738-20e7-481b-9993-759ac3321a67)
 
 
+2. Line Chart: Presents data points connected by straight lines to show trends or patterns 
+over time. Ideal for visualizing continuous data and tracking changes over a specific 
+period.
+
+![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/7425c3ef-dfb2-4fbb-9cc2-0c9d88fbaab3)
 
 
