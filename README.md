@@ -94,4 +94,9 @@ period.
 
 ![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/7425c3ef-dfb2-4fbb-9cc2-0c9d88fbaab3)
 
+3. Histogram: Represents the distribution of continuous data into bins or intervals. 
+Useful for understanding data distribution and identifying outliers.
+
+![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/37fe73a5-5fd5-48d8-bce5-9f9fe2f190cb)
+
 
