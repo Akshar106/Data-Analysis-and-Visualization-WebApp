@@ -99,4 +99,8 @@ Useful for understanding data distribution and identifying outliers.
 
 ![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/37fe73a5-5fd5-48d8-bce5-9f9fe2f190cb)
 
+4. Scatter Plot: Displays individual data points as dots on a two-dimensional plane. 
+Ideal for visualizing the relationship between two numerical variables.
+
+![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/75aa0025-8998-4424-b62f-8663bab2ba5a)
 
