@@ -104,3 +104,9 @@ Ideal for visualizing the relationship between two numerical variables.
 
 ![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/75aa0025-8998-4424-b62f-8663bab2ba5a)
 
+5. Pie Chart: Represents the parts of a whole as slices of a circle, with each slice 
+representing a proportion of the total. Suitable for illustrating percentages or 
+proportions in a dataset.
+
+![image](https://github.com/Akshar106/Data-Analysis-and-Visualization-WebApp/assets/109402115/2e2918af-082e-47c4-88f1-5911413e08b1)
+
