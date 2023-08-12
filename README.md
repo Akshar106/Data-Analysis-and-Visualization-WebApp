@@ -13,7 +13,7 @@ allows users to interactively explore and interpret complex datasets.
 The primary objective of this project is to provide users with a powerful tool to analyse and visualize 
 complex datasets efficiently, aiding in data-driven decision-making and extracting 
 valuable insights. 
-VisuVerse is equipped with two distinct features that work in harmony to empower 
+VisuVerse is provided with two distinct features that work in harmony to empower 
 users with valuable insights. The first feature encompasses data analysis, enabling 
 users to process and examine datasets to uncover meaningful information. The second 
 feature focuses on data visualization, presenting the analysed data in a visually 
