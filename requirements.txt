@@ -1,0 +1,9 @@
+streamlit 
+pandas
+seaborn
+matplotlib.pyplot
+requests
+streamlit_option_menu
+io
+os
+plotly.express
