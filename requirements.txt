@@ -3,6 +3,4 @@ pandas
 seaborn
 requests
 streamlit_option_menu
-io
-os
-plotly.express
+
